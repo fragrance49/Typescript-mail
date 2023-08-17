@@ -118,10 +118,6 @@ Let's dissect this project's `tsconfig.json`, starting with the `compilerOptions
 }
 
 ```
-## Documentation
-
-[Documentation](https://linktodocumentation)
-
 
 ## API Reference
 
