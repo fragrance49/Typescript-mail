@@ -15,7 +15,7 @@ This example comes with a complete REST API to handle Authentication and CRUD fe
 Go to the project directory
 
 ```bash
-  cd node-typescript-boilerplate-mongoose
+  cd Typescript-mail
 ```
 
 Install dependencies
