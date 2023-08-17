@@ -133,12 +133,12 @@ Let's dissect this project's `tsconfig.json`, starting with the `compilerOptions
 
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
-| `firstName`      | `string` | **Required**. Your API key |
-| `lastName`      | `string` | **Required**. Your API key |
-| `avatar`      | `string` | **Required**. Your API key |
-| `email`      | `string` | **Required**. Your API key |
-| `password`      | `string` | **Required**. Your API key |
-| `confirmPassword`      | `number` | **Required**. Your API key |
+| `firstName`      | `string` | **Required**.  |
+| `lastName`      | `string` | **Required**.  |
+| `avatar`      | `string` | **Required**.  |
+| `email`      | `string` | **Required**.  |
+| `password`      | `string` | **Required**.  |
+| `confirmPassword`      | `number` | **Required**. |
 
 #### login user
 
@@ -148,8 +148,8 @@ Let's dissect this project's `tsconfig.json`, starting with the `compilerOptions
 
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
-| `email`      | `number` | **Required**. Your API key |
-| `password`      | `string` | **Required**. Your API key |
+| `email`      | `number` | **Required**.  |
+| `password`      | `string` | **Required**.  |
 
 
 #### Get all users
@@ -160,31 +160,20 @@ Let's dissect this project's `tsconfig.json`, starting with the `compilerOptions
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
-| `_id` | `uuid` | **Required**. Your API key |
-| `firstName` | `string` | **Required**. Your API key |
-| `lastName` | `string` | **Required**. Your API key |
-| `gender` | `string` | **Required**. Your API key |
-| `dateOfBirth` | `string` | **Required**. Your API key |
-| `residence` | `string` | **Required**. Your API key |
-| `avatar` | `string` | **Required**. Your API key |
-| `email` | `string` | **Required**. Your API key |
-| `password` | `string` | **Required**. Your API key |
-| `role` | `string` | **Required**. Your API key |
-| `isEmailVerified` | `boolean` | **Required**. Your API key |
-| `isEmailVerified` | `boolean` | **Required**. Your API key |
+| `_id` | `uuid` | **Required**.  |
+| `firstName` | `string` | **Required**.  |
+| `lastName` | `string` | **Required**.  |
+| `gender` | `string` | **Required**.  |
+| `dateOfBirth` | `string` | **Required**.  |
+| `residence` | `string` | **Required**. |
+| `avatar` | `string` | **Required**.  |
+| `email` | `string` | **Required**.  |
+| `password` | `string` | **Required**.  |
+| `role` | `string` | **Required**.  |
+| `isEmailVerified` | `boolean` | **Required**.  |
+| `isEmailVerified` | `boolean` | **Required**.  |
 
 A postman collection has been added for better understanding.
-
-
-## Badges
-
-Add badges from somewhere like: [shields.io](https://shields.io/)
-
-[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
-
-[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
-
-[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
 
 
 ## Author
